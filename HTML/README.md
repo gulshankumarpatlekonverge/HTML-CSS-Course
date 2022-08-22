@@ -9,13 +9,19 @@
     <title>Document</title> <!-- Page Title -->
 </head>
 <body>                      <!-- What will be displayed on the page -->   
-    
+    <h2> HTML ignores all the whitspaces within tag or outside the tags. HTML is white Space Collapsing.</h2> 
 </body>
 </html>
 
-# Heading Element
+# Element in HTML
 
-    Heading are from <h1></h1> to <h6></h6> tags and the size of the text decreases from H1 to H6.
+    Heading:
+        Heading are from <h1></h1> to <h6></h6> tags and the size of the text decreases from H1 to H6.
+    
+    Paragraph:
+        It is represented using <p></p> tag.
+
+
 
 # Useful resource links
 
