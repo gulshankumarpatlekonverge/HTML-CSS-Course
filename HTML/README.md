@@ -120,5 +120,10 @@
 
     Youtube: https://www.youtube.com/watch?v=mU6anWqZJcc
     Emmet: https://emmet.io/
+    MDN: https://developer.mozilla.org/en-US/docs/Web/HTML
 
 # Extensions for VS Code
+
+    Prettier
+    Code Formatter
+     
