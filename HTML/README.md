@@ -103,7 +103,19 @@
                         <td></td>
                     </tr>
                 </table>
+    
+    Form Element:
+        Form is used to process the data from the user and make it useful to future reference as entry. 
+            <form action="" methods="">
 
+            </form>
+
+        Types of Element in Form:
+            <label for="">Name</labele>
+            <input type ="text" name="" id="" value="" placeholder="">
+            <button type="submit">Submit</button>
+
+        You can get all the inputs using following syntax enter input: and all the elements will open.
 # Useful resource links
 
     Youtube: https://www.youtube.com/watch?v=mU6anWqZJcc
