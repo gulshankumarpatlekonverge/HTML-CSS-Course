@@ -23,7 +23,10 @@
 
     Image:
         To show or import the image in HTML Page <img> tag is used. Use "/", "./", "../" in src property to get the path of file from folder structure or directory. you can also add online image as well. This tag come up wit Height and Width of image to adjust it.
-        
+
+    Break Element:
+        <br/> tag is used to break the elements into the rows or the spaces in between on html page.
+
 
 # Useful resource links
 
