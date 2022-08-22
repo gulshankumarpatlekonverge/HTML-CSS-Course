@@ -1,3 +1,5 @@
+# Basic HTML Page Structure
+
 <!DOCTYPE html>            <!-- HTML Version -->
 <html lang="en">            <!-- Root Element -->
 <head>                      <!-- Inforamation about the page(Meta, Link, Title) -->
