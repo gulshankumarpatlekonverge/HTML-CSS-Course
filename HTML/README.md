@@ -12,3 +12,14 @@
     
 </body>
 </html>
+
+# Heading Element
+
+    Heading are from <h1></h1> to <h6></h6> tags and the size of the text decreases from H1 to H6.
+
+# Useful resource links
+
+    Youtube: https://www.youtube.com/watch?v=mU6anWqZJcc
+    Emmet: https://emmet.io/
+
+# Extensions for VS Code
