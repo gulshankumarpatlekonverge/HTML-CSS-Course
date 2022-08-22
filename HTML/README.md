@@ -21,6 +21,10 @@
     Paragraph:
         It is represented using <p></p> tag.
 
+    Image:
+        To show or import the image in HTML Page <img> tag is used. Use "/" to get the path of file from folder structure or directory. you can also add online image as well.
+
+
 
 
 # Useful resource links
