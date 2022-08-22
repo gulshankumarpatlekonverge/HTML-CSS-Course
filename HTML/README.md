@@ -78,7 +78,31 @@
                         </ul>
                     </li>
                 </ul>
-    
+
+    Table Element:
+        Table Element is used to show the HTML content into the tabular form to make data sustanable.
+                <table>
+                    <tr>
+                        <th></th> 
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>            
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
 
 # Useful resource links
 
