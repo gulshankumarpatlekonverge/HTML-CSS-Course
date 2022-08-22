@@ -27,6 +27,13 @@
     Break Element:
         <br/> tag is used to break the elements into the rows or the spaces in between on html page.
 
+    Navigation Link:
+        Extenal Link:
+        <a href="" target=""></a> tag is used to open the link when user clicks on link. target="" is used to trigger to open the page in same tab or new tab. This link navigate us to the new website or page. 
+    
+        Internal Link:
+        This type of links are only work within our websites no navigate from one page to another example from Home Page to About us or Contact Us page. This type of links are enclosed in the <nav></nav> bar tags. for Empty links you can put "#" to active the link. You can also use <a></a> anchor tag with images and texts to navigate through.  
+
 
 # Useful resource links
 
