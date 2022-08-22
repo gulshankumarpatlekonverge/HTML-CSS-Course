@@ -43,6 +43,43 @@
     Special Characters:
         You can provide special characters in your code using & and the type of character you want to add followed by semi-colon(;).
 
+    UnOrdered List and Orderd List Element:
+       UnOrdered List: 
+        <ul>
+            <li></li>
+            <li></li>
+        </ul> tag is used to represent it. 
+
+       Ordered List: 
+        <ol>
+            <li></li>
+            <li></li>
+        </ol>
+        tag is used to represent it. 
+
+        We can also place navigation links inside the unordered list. We can place <a></a> tag to navigate throuugh tag.
+
+        Nested List:
+            It consist of combination of Ordered and unordered list.
+               <ul>
+                    <li></li>
+                    <li>
+                        <ol>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ol>
+                    </li> 
+                    <li>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                </ul>
+    
+
 # Useful resource links
 
     Youtube: https://www.youtube.com/watch?v=mU6anWqZJcc
