@@ -32,8 +32,16 @@
         <a href="" target=""></a> tag is used to open the link when user clicks on link. target="" is used to trigger to open the page in same tab or new tab. This link navigate us to the new website or page. 
     
         Internal Link:
-        This type of links are only work within our websites no navigate from one page to another example from Home Page to About us or Contact Us page. This type of links are enclosed in the <nav></nav> bar tags. for Empty links you can put "#" to active the link. You can also use <a></a> anchor tag with images and texts to navigate through.  
+        This type of links are only work within our websites no navigate from one page to another example from Home Page to About us or Contact Us page. This type of links are enclosed in the <nav></nav> bar tags. for Empty links you can put "#" to active the link. You can also use <a></a> anchor tag with images and texts to navigate through.
 
+    Sup and Sub Element:  
+        <sup></sup> place the content of the tag onto the top of the text and <sub></sub> place the content of the tag bottom of the text. 
+
+    Strong And Em Element:
+        <strong></strong> tag is used to "Bold" the text and <em></em> is used to "Italic" the text. You can also achive this using the css to put all you changes to one place. 
+
+    Special Characters:
+        You can provide special characters in your code using & and the type of character you want to add followed by semi-colon(;).
 
 # Useful resource links
 
