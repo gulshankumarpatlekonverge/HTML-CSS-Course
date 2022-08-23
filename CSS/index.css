@@ -5,6 +5,12 @@ body{
     line-height: 1.5em;
 }
 
-div{
+.div-color{
     color: blue;
+}
+
+/* * universal selector */
+
+*{
+    background-color: aqua;
 }
