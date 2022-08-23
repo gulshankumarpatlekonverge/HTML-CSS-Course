@@ -58,7 +58,7 @@
                 .selector{
                     property:value
                 }
-                
+
         5. Universal Selector: *
            Universal Selector *{} is used to apply the property over all the elements. It will use the term specificity.
 
@@ -71,12 +71,21 @@
 
         "For grouping something in HTML we use div and span tag. we can use class selector with this tags."
 
+# Color and BackGround Color
+    1. RGB(RED, GREEM, BLUE): rgb(100, 200, 56)
 
+    2. RGBA(0, 0, 0, 1) : rgba(red, green, blue, alpha) 0-1  optacity/transparacy
+
+    3. HSL HEX Values: #RRGGBB
+        Number Codes:
+            1 2 3 4 5 6 7 8 9 A(10) B(11) C(12) D(13) E(14) F(14)
 # Links
 
     MDN Specificity in CSS: 
         https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
         https://www.w3schools.com/css/css_specificity.asp
+
+    Color Pallet(COOLERS): https://coolors.co/
 # Extension to use with VS code
 
     Bracket Pair Colorizer
