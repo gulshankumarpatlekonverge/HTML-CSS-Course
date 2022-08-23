@@ -94,6 +94,11 @@
         calc() perform math operation +, -, *, / mix and match value
             min-height: calc(100vh - 100px);
 
+# Typography
+    1. font stack, generic family 
+        Provided by VS code
+    2. google fonts
+        You can find this on the internet by googleing it.
 # Links
 
     MDN Specificity in CSS: 
@@ -101,6 +106,8 @@
         https://www.w3schools.com/css/css_specificity.asp
 
     Color Pallet(COOLERS): https://coolors.co/
+
+    Google Fonts: https://fonts.google.com/
 # Extension to use with VS code
 
     Bracket Pair Colorizer
