@@ -1,51 +1,10 @@
-/* Type selector */
-h1{
+/* Inheritance */
+body{
     color: red;
+    font-family: monospace;
+    line-height: 1.5em;
 }
-
-h2{
-    color: green;
-}
-
-p{
-    color: gray;
-}
-
-/* Grouping Selectors */
-
-h3, h4{
-    color: blue;
-}
-
-/* id selector */
-#heading3{
-    color: blueviolet;
-    background-color: antiquewhite;
-}
-
-/* class selector */
-.classSelector{
-    background-color: aqua;
-    color: brown;
-    border-radius: 4px;
-}
-
-/* class selector on the same tag */
-.backgroundColorPara{
-    background-color: blanchedalmond;
-}
-
-.uppercase{
-    text-transform: uppercase;
-}
-
-/* div and span */
 
 div{
-    color: black;
-    background-color: aqua;
-}
-
-span{
-    text-transform: uppercase;
+    color: blue;
 }

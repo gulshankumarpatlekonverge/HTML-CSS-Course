@@ -38,21 +38,30 @@
 
     Selectors:
         1. Type selector: h1{}, h2{}, p{} etc. are type selector.
+
         2. Grouping Selector: h3,h4{} is the grouping selector which apply proprty at both the tags.
+
         3. id Selector: id="" We can implement the css using the id of that perticular tag. id's of the element should be unique. In the CSS file, we us "#(sharp)" to note the id selector followed by name of selector and property.
+
             In HTML:
                 <h3 id="selector">Hello World</h3>
             In CSS File:
                 #selector{
                     property:value
                 }
+
         4. class selector: class="" We can also implement CSS using class selector using the ".(dot)" with the selector name followed by property. Classes we can reuse them however we want but we dont use id selectors they must be unique.
+
             In HTML: 
                 <h3 class="selector">Hello World</h3>
             In CSS File:
                 .selector{
                     property:value
                 }
+                
+        5. Universal Selector: *
+           Universal Selector *{} is used to apply the property over all the elements. It will use the term specificity.
+
 
     div tag: <div></div> 
         with div tag we basically start a new line style. div is a block level element.
@@ -63,6 +72,11 @@
         "For grouping something in HTML we use div and span tag. we can use class selector with this tags."
 
 
+# Links
+
+    MDN Specificity in CSS: 
+        https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+        https://www.w3schools.com/css/css_specificity.asp
 # Extension to use with VS code
 
     Bracket Pair Colorizer
