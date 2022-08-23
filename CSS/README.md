@@ -79,6 +79,17 @@
     3. HSL HEX Values: #RRGGBB
         Number Codes:
             1 2 3 4 5 6 7 8 9 A(10) B(11) C(12) D(13) E(14) F(14)
+
+# Units in CSS
+    absolute:
+        1. pixels 
+            pixels is a absolute unit of mesurement and one pixel represent one dot on a screen.
+
+    relative:
+        1. percent(%)
+        2. em, rem
+        3. vw,vh
+
 # Links
 
     MDN Specificity in CSS: 

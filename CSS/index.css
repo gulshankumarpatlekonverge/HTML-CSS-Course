@@ -1,27 +1,106 @@
-/* color and background color  RGB Red Green Blue 0-255*/
+/* font-size, width and height */
+
+/* Absolute -> pixels (px)*/
+
 #heading1{
-    color: aqua;
-    background-color: lightcoral;
+    font-size: 30px;
+    width: 400px;
+    height: 50px;
+    background-color: yellowgreen;
 }
 
-#heading2{
-    color: crimson;
-    background: lightgreen;
+/* 
+    Relative -> Percent (%)  
+*/
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: green;
 }
 
-#heading3{
-    color: rgb(11, 82, 144);
+.inner{
+    height: 100%;
+    width: 75%;
+    background-color: red;
 }
 
-/* RGBA 0-1 optacity/transparacy */
-
-#heading4{
-    color: rgb(100, 200, 56);
-    background: rgba(0, 0, 0, 0.9);
-    color: rgba(red, green, blue, alpha);
+/* 
+    em - Relative depends on parent
+    1em = 16px / default browser style
+    1 em = base value
+*/
+div{
+    font-size: 10px;
+}
+.heading2-1{
+    /* Relative */
+    font-size: 2em;
 }
 
-/* HEX Value */
-body{
-    background: #daa9b4;
+.heading2-2{
+    /* Absolute */
+    font-size: 32px;
+}
+
+/* 
+    rem - Relative path depends on root
+    1rem = 16px / default browser style
+*/
+.remDiv{
+    font-size: 40px;
+}
+
+.heading3-1{
+    /* Relative */
+    font-size: 2rem;
+}
+
+.heading3-2{
+    /* Absolute */
+    font-size: 32px;
+}
+
+/* 
+    vh - (View Height)- height - percent of the screen
+    wh - (View width) - width - percent of the screen
+*/
+
+.banner{
+    width: 50vw;
+    height: 50vh;
+    background-color: aqua;
+}
+
+.header{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+/* default browser style and google devTool */
+
+.devTool{
+    color: red;
+    font-size: 60px;
+}
+
+/* Calc function :
+    calc() perform math operation +, -, *, / mix and match value */
+
+
+*{
+    margin: 0px;
+}
+
+.navBar{
+    background-color: yellow;
+    height: 100px;
+    color: white;
+    font-size: 3rem;
+}
+
+.banner1{
+    background: red;
+    min-height: calc(100vh - 100px);
 }
