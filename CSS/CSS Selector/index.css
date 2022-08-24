@@ -116,16 +116,15 @@ div{
 
 .oneDiv{
     background-color: aqua;
-    transform: scaleX(-1)
+    transform: rotateZ(130deg)
 }
 
 .twoDiv{
     background-color: aquamarine;
-    transform: scaleY(0.5);
+    transform: rotateY(60deg);
 }
 
 .threeDiv{
     background-color: blueviolet;
-    /* transform: translateX(75px); */
-    transform: scale(0.5, 0.5);
+    transform: rotate(140deg);
 }
