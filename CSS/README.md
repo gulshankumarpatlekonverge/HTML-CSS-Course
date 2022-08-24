@@ -177,6 +177,22 @@
                 inside the padding of the content
 
 
+# Display Properties
+
+    Block: Alwys starts a new line and take full width.
+         display: block;
+
+    Inline: Does not start and only take up as much as cotent space.
+         display: inline;
+
+# Background Properties
+    All the properties with the background keyword applied to the background of the page or content.
+        background-color: red;
+        background:url(image.jpg)
+        background-repeat: 
+        background-size:
+        background-position:
+        background-attachment:
 # Links
 
     MDN Specificity in CSS: 
