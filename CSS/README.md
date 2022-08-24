@@ -99,6 +99,84 @@
         Provided by VS code
     2. google fonts
         You can find this on the internet by googleing it.
+
+# Box Modeling
+
+    1. padding: 
+        Padding is used to create space around an element's content, inside of any defined borders.
+            padding-top: 30px; 
+                - from top
+            padding-bottom: 60px; 
+                - from bottom
+            padding-left: 25px; 
+                - from left
+            padding-right: 50px; 
+                - from right
+            padding: 50px; 
+                - from all around
+            padding: 30px 60px; 
+                - from 60px -  left & right 30px top & bottom 
+            padding: 20px 30px 40px 50px; 
+                -from 20px- top, 30px right 40px- bottom, 50px- left
+
+    2. border:
+        The CSS border properties allow you to specify the style, width, and color of an element's border.
+            border-top: 30px; 
+                - from top
+            border-bottom: 60px; 
+                - from bottom
+            border-left: 25px; 
+                - from left
+            border-right: 50px; 
+                - from right
+            border: 50px; 
+                - from all around
+            border: 30px 60px; 
+                - from 60px -  left & right 30px top & bottom 
+            border: 20px 30px 40px 50px; 
+                -from 20px- top, 30px right 40px- bottom, 50px- left
+            border: solid 20px red;
+                - soli style width 20px color red 
+            border-style: dashed;
+            border-width: 20px;
+            border-color: red;
+        Border Radius:
+            border-radius: 4px;
+            and many more
+
+    3. margin:
+        The CSS margin properties are used to create space around elements, outside of any defined borders. 
+            margin-top: 30px; 
+                - from top
+            margin-bottom: 60px; 
+                - from bottom
+            margin-left: 25px; 
+                - from left
+            margin-right: 50px; 
+                - from right
+            margin: 50px; 
+                - from all around
+            margin: 30px 60px; 
+                - from 60px -  left & right 30px top & bottom 
+            margin: 20px 30px 40px 50px; 
+                -from 20px- top, 30px right 40px- bottom, 50px- left
+        Negative Margin:
+            margin-top: -30px;
+
+    4. Outline:
+        An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out"
+            outline-width: 0.2rem;
+            outline-style: solid;
+            outline-color: #222;
+
+            outline: 0.2rem solid #222;
+                0.2rem width solid style #222 color
+            outline-offset: 10px;  
+                away from the padding of the content
+            outline-offset: - 10px; 
+                inside the padding of the content
+
+
 # Links
 
     MDN Specificity in CSS: 
