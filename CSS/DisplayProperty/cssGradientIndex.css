@@ -66,11 +66,11 @@ div{
 
 /* Float Property */
 
-.bannerImage{
+/* .bannerImage{
     border: 5px solid red;
     padding: 10px;
     overflow: hidden;
-}
+} */
 
 /* img{
     float: left;
@@ -82,10 +82,10 @@ p{
     clear: left;
 } */
 
-.firstImage{
+/* .firstImage{
     float: right;
     margin-left: 50px;
-}
+} */
 
 /* .secondImage{
     float: left;
@@ -95,3 +95,31 @@ p{
 p{
     clear: both;
 } */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    float: left;
+    height: 200px;
+    width: 33.33%;
+}
+
+.one{
+    background-color: red;
+}
+
+.two{
+    background-color: blue;
+}
+
+.three{
+    background-color: green;
+}
+
+h1{
+    clear: both;
+}
