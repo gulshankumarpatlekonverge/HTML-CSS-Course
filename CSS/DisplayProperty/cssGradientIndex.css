@@ -95,7 +95,7 @@ p{
 p{
     clear: both;
 } */
-
+/* 
 *{
     margin: 0;
     padding: 0;
@@ -122,4 +122,31 @@ div{
 
 h1{
     clear: both;
+} */
+
+/* Position Static Relative Absolute Fixed  */
+
+div{
+    border: 3px solid yellow;
+    background-color: blue;
+    margin-top: 40px;
+    position: static;
+}
+
+.one{
+    background-color: aquamarine;
+    position: relative;
+    top: 50px;
+    left: 20rem;
+    right: 50%;
+    bottom: 200px;
+}
+
+.two{
+    background-color: antiquewhite;
+}
+
+.special{
+    background-color: lightcoral;
+    font-size: 20px;
 }
