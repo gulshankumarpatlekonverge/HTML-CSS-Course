@@ -125,12 +125,12 @@ h1{
 } */
 
 /* Position Static Relative Absolute Fixed  */
-
+/* 
 div{
     border: 3px solid yellow;
     background-color: blue;
     margin-top: 40px;
-    /* position: relative; */
+    position: relative;
 }
 
 .one{
@@ -140,7 +140,7 @@ div{
 
 .two{
     background-color: antiquewhite;
-    /* position: relative; */
+    position: relative;
 }
 
 .special{
@@ -149,4 +149,20 @@ div{
     position: absolute;
     top:50%;
     left:50%;
+} */
+
+div{
+    border: 3px solid yellow;
+    background-color: lightblue;
+    margin-top: 40px;
+    position: relative;
+}
+
+button{
+    background-color: red;
+    font-size: large;
+    color: white;
+    position: fixed;
+    top: 0;
+    right:0;
 }
