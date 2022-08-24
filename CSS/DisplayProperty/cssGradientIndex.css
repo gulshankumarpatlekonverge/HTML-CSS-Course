@@ -1,5 +1,5 @@
 
-/* css gradient */
+/* css gradient
 body{
     display: flex;
 }
@@ -33,4 +33,32 @@ div{
 
 .six{
     background: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 250, 0, 0.1));
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+}
+
+.banner{
+    background:url("./images/image2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/first-image.jpg"), center/cover fixed no-repeat; 
 }

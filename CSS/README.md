@@ -193,6 +193,9 @@
         background-size:
         background-position:
         background-attachment:
+
+# CSS Gradient
+    background: linear-gradient();
 # Links
 
     MDN Specificity in CSS: 
@@ -202,6 +205,8 @@
     Color Pallet(COOLERS): https://coolors.co/
 
     Google Fonts: https://fonts.google.com/
+
+    CSS Gradient: https://www.colorzilla.com/gradient-editor/
 # Extension to use with VS code
 
     Bracket Pair Colorizer
