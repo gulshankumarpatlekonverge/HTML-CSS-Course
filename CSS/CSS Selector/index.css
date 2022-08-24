@@ -116,15 +116,16 @@ div{
 
 .oneDiv{
     background-color: aqua;
-    transform: rotateZ(130deg)
+    transform: skewX(20deg);
 }
 
 .twoDiv{
     background-color: aquamarine;
-    transform: rotateY(60deg);
+    transform: skewY(-20deg);
+   
 }
 
 .threeDiv{
     background-color: blueviolet;
-    transform: rotate(140deg);
+    transform: skew(40deg, -20deg);
 }
