@@ -151,7 +151,7 @@ div{
     left:50%;
 } */
 
-div{
+/* div{
     border: 3px solid yellow;
     background-color: lightblue;
     margin-top: 40px;
@@ -165,4 +165,81 @@ button{
     position: fixed;
     top: 0;
     right:0;
+} */
+
+
+/* 
+
+Media Queries
+Responsive Design
+Style Element on different screen sizes
+min-width: --starting from
+max-width: --up to
+mobile first
+
+
+*/
+body{
+    background: lightcyan;
 }
+.baneerMQ{
+    background-color: lightblue;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize; 
+}
+/* 
+@media screen and (min-width: 576px ){
+    body{
+        background-color: lightsalmon;
+    }
+
+    .bannerMQ{
+        background:  lightslategrey;
+    }
+
+    h1{
+        color: red;
+        font-size: 60px;
+    }
+} */
+ 
+/* @media screen and (min-width: 876px ){
+    body{
+        background-color: green;
+    }
+
+    .bannerMQ{
+        background:  blueviolet;
+    }
+
+    h1{
+        color: yellow;
+        font-size: 60px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}    */
+
+@media screen and (max-width: 876px ){
+    body{
+        background-color: green;
+    }
+
+    .bannerMQ{
+        background:  blueviolet;
+        border-radius: 20px;
+    }
+
+    h1{
+        color: yellow;
+        font-size: 60px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}   
