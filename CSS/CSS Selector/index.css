@@ -1,0 +1,49 @@
+/* CSS Selector */
+
+*{
+    color: green;
+}
+
+#heading{
+   font-size: 40px;
+   text-transform: uppercase; 
+   color: aqua;
+}
+
+.heading{
+    font-size: 60px;
+    text-transform: capitalize;
+    color: blueviolet;
+}
+
+#para{
+    letter-spacing: 20px;
+}
+
+div h1{
+    color: red;
+}
+
+div > h1{
+    color: blue;
+}
+
+.header h1{
+    color: cadetblue;
+}
+
+.header > h1{
+    color: purple;
+}
+
+/* ::first-line  ::first-letter */
+
+p::first-line{
+    font-weight: bold;
+}
+
+p::first-letter{
+    font-size: 3rem;
+}
+
+/*  :Hover Pseudo-Class Selector */
