@@ -46,4 +46,20 @@ p::first-letter{
     font-size: 3rem;
 }
 
-/*  :Hover Pseudo-Class Selector */
+/*  :Hover Pseudo-Class Selector :hover 
+    :link :visited :hover :active
+
+*/
+
+p:hover{
+    color: red;
+}
+
+.hoverHeader:hover{
+    background-color: aqua;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+}
