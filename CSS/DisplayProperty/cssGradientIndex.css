@@ -1,0 +1,36 @@
+
+/* css gradient */
+body{
+    display: flex;
+}
+
+div{
+    width: 150px;
+    height: 500px;
+    margin: 5px;
+
+}
+
+.one{
+    background: linear-gradient(to bottom, red, green);
+}
+
+.two{
+    background: linear-gradient(to top, red, green, blue, yellow);
+}
+
+.three{
+    background: linear-gradient(350deg, red, green);
+}
+
+.four{
+    background: linear-gradient(to top left, red, green);
+}
+
+.five{
+    background: linear-gradient(to top right, rgb(151, 66, 66), green);
+}
+
+.six{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 250, 0, 0.1));
+}
