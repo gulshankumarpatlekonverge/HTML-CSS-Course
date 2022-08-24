@@ -105,6 +105,8 @@ h1{
 
 /*  transform: translate(), rotate(), scale(), skew()
     transition: change over time
+        transition-property:
+        transition-duration:
     animation: change over time with points
 */
 
@@ -114,18 +116,48 @@ div{
     display: inline-block;
 }
 
+/* div:hover{
+    background: chartreuse;
+} */
+
 .oneDiv{
     background-color: aqua;
-    transform: skewX(20deg);
+
+
 }
 
 .twoDiv{
     background-color: aquamarine;
-    transform: skewY(-20deg);
+    transition: background 3s 5s, border-radius;
+   
+}
+
+.twoDiv:hover{
+    background: red;
+    border-radius: 20px;
    
 }
 
 .threeDiv{
     background-color: blueviolet;
-    transform: skew(40deg, -20deg);
+    transition-property: background,  border-radius;
+    transition-duration: 5s, 3s;
+    transition-delay: 2s;
 }
+
+.threeDiv:hover{
+    border-radius: 15px;
+}
+
+/* 
+    how the transition takes place
+    trasition-timing-function:
+    transition: all 3s here 5s;
+    ease = default
+    ease = slow start, fast, slow end
+    linear = same speed start to end
+    ease-in = slow start
+    ease-out = slow end
+    ease-in-out: slow start fast slow end
+
+*/
