@@ -1,6 +1,6 @@
 /* CSS Selector */
 
-*{
+/* *{
     color: green;
 }
 
@@ -34,23 +34,21 @@ div > h1{
 
 .header > h1{
     color: purple;
-}
+} */
 
 /* ::first-line  ::first-letter */
-
+/* 
 p::first-line{
     font-weight: bold;
 }
 
 p::first-letter{
     font-size: 3rem;
-}
+} */
 
-/*  :Hover Pseudo-Class Selector :hover 
-    :link :visited :hover :active
+/*  :Hover Pseudo-Class Selector :hover */
 
-*/
-
+/* 
 p:hover{
     color: red;
 }
@@ -62,4 +60,45 @@ p:hover{
 
 a:hover{
     text-decoration: none;
+} */
+
+/*  :link :visited :hover :active */
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: green;
+}
+
+/* root element of the document
+html element
+general style
+css variables
+*/
+
+:root{
+    background-color: lightsalmon;
+    font-size: 150%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.absolute{
+    font-size: 24px;
+}
+
+.responsive{
+    font-size: 1.5rem;
 }
