@@ -153,25 +153,38 @@ ul  a{
 /* background property */
 
 .divSpecification{
-    height: 400px;
-    color: red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 400px;
+    color: green;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .bigImg{
-    background: url("./images/image2.jpg");
-    background-repeat: round;
+    background: url("./images/image.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .folderImg{
     background-image: url("./images/image3.jpg");
-    background-repeat: round;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .smallImg{
-    background-image: url("./images/image.jpg");
+    background-image: url("./images/image2.jpg");
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
