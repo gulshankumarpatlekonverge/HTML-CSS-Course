@@ -102,3 +102,30 @@ h1{
 .responsive{
     font-size: 1.5rem;
 }
+
+/*  transform: translate(), rotate(), scale(), skew()
+    transition: change over time
+    animation: change over time with points
+*/
+
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.oneDiv{
+    background-color: aqua;
+    transform: translateX(50%);
+}
+
+.twoDiv{
+    background-color: aquamarine;
+    transform: translateY(30px);
+}
+
+.threeDiv{
+    background-color: blueviolet;
+    /* transform: translateX(75px); */
+    transform: translate(200px, 300px);
+}
