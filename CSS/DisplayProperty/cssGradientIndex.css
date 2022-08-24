@@ -34,7 +34,7 @@ div{
 .six{
     background: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 250, 0, 0.1));
 } */
-
+/* 
 *{
     margin: 0;
     padding: 0;
@@ -61,4 +61,37 @@ div{
 
 .header{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/first-image.jpg"), center/cover fixed no-repeat; 
+} */
+
+
+/* Float Property */
+
+.bannerImage{
+    border: 5px solid red;
+    padding: 10px;
+    overflow: hidden;
 }
+
+/* img{
+    float: left;
+    float: right;
+}
+
+p{
+    clear: right;
+    clear: left;
+} */
+
+.firstImage{
+    float: right;
+    margin-left: 50px;
+}
+
+/* .secondImage{
+    float: left;
+    height: 300px;
+}
+
+p{
+    clear: both;
+} */
