@@ -177,8 +177,9 @@ min-width: --starting from
 max-width: --up to
 mobile first
 
-
 */
+
+/*
 body{
     background: lightcyan;
 }
@@ -192,7 +193,7 @@ h1{
     text-align: center;
     text-decoration: underline;
     text-transform: capitalize; 
-}
+} */
 /* 
 @media screen and (min-width: 576px ){
     body{
@@ -226,7 +227,7 @@ h1{
     }
 }    */
 
-@media screen and (max-width: 876px ){
+/* @media screen and (max-width: 876px ){
     body{
         background-color: green;
     }
@@ -242,4 +243,41 @@ h1{
         text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-}   
+}    */
+
+/* 
+    z-index ---- z-axis 
+    position static --- doesnt work
+*/
+
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.baneerIndex{
+    margin: 20px;
+    width: 80vw;
+    height: 70vh;
+    border: 5px solid green;
+    position: relative;
+}
+
+.oneImg{
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.twoImg{
+    top: 10%;
+    left: 10%;
+    z-index: -1;
+}
+
+.threeImg{
+    top: 20%;
+    left: 20%;
+    z-index: -2;
+}
