@@ -227,11 +227,14 @@ div{
     background: lightblue;
     /* animation-name: move;
     animation-duration: 10s;
-    animation-iteration-count: 3; */
-    animation: move 20s infinite;
+    animation-iteration-count: 3; 
+    animation: move 20s infinite;*/
+
+    animation: move 5s 2;
+    animation-fill-mode: forwards;
 }
 
-@keyframes move{
+/* @keyframes move{
     0%{
         transform: translateX(20px);
     }
@@ -246,5 +249,23 @@ div{
     100%{
         transform: translateX(20px);
         background-color: green;
+    }
+} */
+
+@keyframes move{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        transition: translateX(200px);
+        opacity: 0.25;
+    }
+    50%{
+        transition: translateX(-100px);
+        opacity: 1;
+    }
+    100%{
+        transition: translateX(0);
+        opacity: 0.5;
     }
 }
