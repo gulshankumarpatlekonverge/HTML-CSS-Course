@@ -87,3 +87,36 @@ div{
     Free, Easy to get up running, simple syntax
 */
 
+.fa-home{
+    color: green;
+    font-size: 4rem;
+}
+
+.socialIcon{
+    font-size: 200px;
+    color: blue;
+}
+
+/* text-shadow and box-shadow */
+
+.mainShadow{
+    text-shadow: 1px 1px 3px red;
+}
+
+.boxShadow{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    margin: 20px;
+    /* box-shadow: 3px 5px 5px red; */
+    transition: all 3s linear;
+}
+
+.boxShadow:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/*  HTML Semantic tags */
+

@@ -207,6 +207,18 @@
     Google Fonts: https://fonts.google.com/
 
     CSS Gradient: https://www.colorzilla.com/gradient-editor/
+
+    Font-Awesome: https://fontawesome.com/
+
+    Text Shadow: https://css3gen.com/text-shadow/
+
+    Box Shadow: https://www.cssmatic.com/box-shadow
+
+    Semantic HTML: https://www.w3schools.com/html/html5_semantic_elements.asp
+
+    Emmet Snippet: https://emmet.io/
+
+
 # Extension to use with VS code
 
     Bracket Pair Colorizer
