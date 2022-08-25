@@ -1,0 +1,89 @@
+/* 
+    CSS variable
+    FontAwesome Icons
+    test-shadow, box-shadow
+    browser prefixes
+    semantic HTML
+    Emmet Snippets
+*/
+
+/* 
+    CSS Variables AKA Custom Properties hold a value and reuse it
+
+    --varName:value;
+    property: var(--varName)
+    scope:-
+        :root{} === global
+        element === local
+        and property
+
+
+.heading{
+    color: aqua;
+}
+
+.text{
+    color: cadetblue;
+}
+
+.main{
+
+}
+
+.main-text{
+    color: lightgreen;
+}
+
+.second-heading{
+    color: aqua;
+}
+
+.third-heading{
+    color: black;
+}
+
+*/
+/* Global Scope */
+:root{
+    --primaryColor : blue;
+    --secoundaryColor : green;
+    --mainTransition: all 0.4s linear;
+}
+
+.heading{
+    color: var(--primaryColor);
+}
+
+.secound-heading:hover{
+    color: var(--primaryColor);
+}
+
+.secound-heading:hover{
+    color: var(--secoundaryColor);
+    transition: var(--mainTransition);
+}
+
+.third-heading{
+    color: var(--primaryColor);
+}
+
+/* Local Scope */
+
+div{
+    --primaryRed: red;
+}
+
+.main-test{
+    color: var(--primaryRed);
+}
+
+.third-heading{
+    color: var(--primaryRed);
+}
+
+/* 
+    ICONS
+    Font-Awesome Icons
+    Free, Easy to get up running, simple syntax
+*/
+
