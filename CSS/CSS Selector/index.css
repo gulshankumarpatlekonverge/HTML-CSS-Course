@@ -199,3 +199,52 @@ div{
 
     transition-timing-function: ease-in-out;
 }
+
+/* Animation 
+    Transition 0 = 100%
+    Animation 0 1% 2% ... 100%
+
+    animation-fill-mode: what values are applied by the aniamation outside the time it is executing
+*/
+
+.divAniTra{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+.transition{
+    background:lightgreen;
+    transition: all 2s linear;
+}
+
+.transition:hover{
+    background: yellow;
+    transform: translateX(100px);
+}
+
+.animation{
+    background: lightblue;
+    /* animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: 3; */
+    animation: move 20s infinite;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateX(100px);
+        background-color: red;
+    }
+    75%{
+        transform: translateX(-200px);
+        background-color: yellow;
+    }
+    100%{
+        transform: translateX(20px);
+        background-color: green;
+    }
+}
